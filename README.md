@@ -1,4 +1,3 @@
-
 # Leaf Disease Detection
 
 Leaf disease detection is a crucial web app in agriculture, focusing on the automated identification and diagnosis of diseases and stress conditions affecting plant leaves. By analyzing images of leaves for patterns and symptoms of diseases or nutrient deficiencies, this technology-enabled web application enables early detection, precise treatment, and the promotion of sustainable farming practices. It empowers farmers with valuable insights into plant health, contributing to improved crop yields, reduced environmental impact, and enhanced food security.
@@ -77,7 +76,7 @@ myenv\Scripts\activate
 
 step1 : clone the repo
 ```bash
-https://github.com/Abhi-vish/Leaf-Disease-Detection.git
+https://github.com/Muhammad-waqas1/SmartAgro-Disease-Detector.git
 ```
 
 step2 : install requirements.txt package by running commnad
