@@ -1,7 +1,6 @@
+# SmartAgro Disease Detection
 
-# Leaf Disease Detection
-
-Leaf disease detection is a crucial web app in agriculture, focusing on the automated identification and diagnosis of diseases and stress conditions affecting plant leaves. By analyzing images of leaves for patterns and symptoms of diseases or nutrient deficiencies, this technology-enabled web application enables early detection, precise treatment, and the promotion of sustainable farming practices. It empowers farmers with valuable insights into plant health, contributing to improved crop yields, reduced environmental impact, and enhanced food security.
+SmartAgro disease detection is a crucial web app in agriculture, focusing on the automated identification and diagnosis of diseases and stress conditions affecting plant leaves. By analyzing images of leaves for patterns and symptoms of diseases or nutrient deficiencies, this technology-enabled web application enables early detection, precise treatment, and the promotion of sustainable farming practices. It empowers farmers with valuable insights into plant health, contributing to improved crop yields, reduced environmental impact, and enhanced food security.
 ## Dataset
 
 This dataset contains 87,000 RGB images of healthy and diseased crop leaves categorized into 38 classes. It follows an 80/20 training-validation split, preserving the directory structure, and includes 33 test images for predictions. It's a vital resource for agricultural research and machine learning applications in crop health monitoring and disease detection.
@@ -47,20 +46,12 @@ This dataset contains 87,000 RGB images of healthy and diseased crop leaves cate
 
 ## preview
 
-
-
 #### 1. Disease Detection 
 
 ![Untitled video - Made with Clipchamp (1)](https://github.com/Abhi-vish/Leaf-Disease-Detection/assets/109618783/351e1a1d-aa5c-41dd-9945-2704a0d17e82)
 
-#### 2. ChatBot
-
-![Untitled video - Made with Clipchamp (2)](https://github.com/Abhi-vish/Leaf-Disease-Detection/assets/109618783/4f59d686-c8f5-4581-bb41-d4967902a0d3)
-
 
 ## Virtual Environment 
-
-
 
 Create a virtual environment to ensure that the project runs smoothly without any impact on your system's environment.
 ```bash
@@ -75,12 +66,12 @@ myenv\Scripts\activate
 
 #### Install my-project in your envrionment
 
-step1 : clone the repo
+Step1 : Clone the Repository
 ```bash
-https://github.com/Abhi-vish/Leaf-Disease-Detection.git
+https://github.com/Muhammad-waqas1/SmartAgro-Disease-Detector.git
 ```
 
-step2 : install requirements.txt package by running commnad
+Step2 : Install requirements.txt package by running commnad
 ```bash
 pip install  -r requirements.txt
 ```
@@ -89,9 +80,6 @@ step3 : open terminal and run commnad
 python app.py 
 ```    
     
-## 🚀 About Me
-I'm a student...
-
 
 ## Lessons Learned
 
