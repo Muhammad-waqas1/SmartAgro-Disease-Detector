@@ -69,6 +69,7 @@ myenv\Scripts\activate
 Step1 : Clone the Repository
 ```bash
 https://github.com/Muhammad-waqas1/SmartAgro-Disease-Detector.git
+https://github.com/Muhammad-waqas1/SmartAgro-Disease-Detector.git
 ```
 
 Step2 : Install requirements.txt package by running commnad
