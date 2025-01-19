@@ -1,9 +1,8 @@
-
-.container_detect{
+.container_detect {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 .img {
@@ -15,7 +14,8 @@
     font-weight: bold;
     font-style: italic;
 }
-.upload_title:hover{
+
+.upload_title:hover {
     cursor: pointer;
 }
 
@@ -23,6 +23,7 @@
     text-decoration: none;
     color: white;
 }
+
 .btn1 button:focus {
     outline: none;
 }
@@ -34,7 +35,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 
@@ -105,7 +106,7 @@
 
 /* media quries  */
 
-@media only screen and (max-width: 600px){ 
+@media only screen and (max-width: 600px) {
     .title1 {
         font-family: 'Josefin Sans', sans-serif;
         color: green;
@@ -113,10 +114,12 @@
         font-size: 27px;
         margin-top: 50px;
     }
+
     .subtitle {
         font-size: 15px;
         font-family: 'Nunito', sans-serif;
     }
+
     .img {
         width: 150px;
         padding-bottom: 10px;
@@ -127,63 +130,82 @@
     }
 
 
- }
+}
+
 /* This is the style for the modal */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: hidden; /* Enable scroll if needed */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* This is the style for the modal content */
-  .modal-content {
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: hidden;
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* This is the style for the modal content */
+.modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 15% auto;
+    /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-    position: relative; /* Make the content a positioning context */
-    height: 70vh; /* Set a specific height for modal content */
-    overflow: hidden; /* Hide overflow content */
-  }
-  
-  /* This is the style for the close button */
-  .close {
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+    position: relative;
+    /* Make the content a positioning context */
+    height: 70vh;
+    /* Set a specific height for modal content */
+    overflow: hidden;
+    /* Hide overflow content */
+}
+
+/* This is the style for the close button */
+.close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
+}
 
-  /* Style the input field and make it sticky at the bottom */
-  .bottom-0 {
+/* Style the input field and make it sticky at the bottom */
+.bottom-0 {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: flex-end; /* Push items to the bottom */
-    height: 100%; /* Occupy the full height of modal content */
-  }
+    flex-direction: column;
+    /* Stack items vertically */
+    justify-content: flex-end;
+    /* Push items to the bottom */
+    height: 100%;
+    /* Occupy the full height of modal content */
+}
 
-  #text {
-    width: 100%; /* Expand the input field to full width */
-    margin-bottom: 10px; /* Add some space between input and submit button */
-    padding: 5px; /* Add padding for better appearance */
-  }
+#text {
+    width: 100%;
+    /* Expand the input field to full width */
+    margin-bottom: 10px;
+    /* Add some space between input and submit button */
+    padding: 5px;
+    /* Add padding for better appearance */
+}
 
-  /* Style the submit button */
-  input[type="submit"] {
+/* Style the submit button */
+input[type="submit"] {
     position: sticky;
     bottom: 100px;
     background-color: #007bff;
@@ -191,23 +213,26 @@
     border: none;
     cursor: pointer;
     padding: 10px 20px;
-  }
+}
 
-  /* Style the <p> tag */
-  #answer {
-    margin-top: 20px; /* Add some space between the form and the <p> tag */
-  }
-
-
-
-
-  /* navbar stylish and transparent: */
+/* Style the <p> tag */
+#answer {
+    margin-top: 20px;
+    /* Add some space between the form and the <p> tag */
+}
 
 
-  /* Navbar styles */
+
+
+/* navbar stylish and transparent: */
+
+
+/* Navbar styles */
 .navbar {
-    background: rgba(0, 0, 0, 0.8); /* Transparent background */
-    backdrop-filter: blur(10px);          /* Frosted glass effect */
+    background: rgba(0, 0, 0, 0.8);
+    /* Transparent background */
+    backdrop-filter: blur(10px);
+    /* Frosted glass effect */
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     transition: all 0.3s ease-in-out;
 }
@@ -248,4 +273,18 @@
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(5px);
     transition: all 0.3s ease-in-out;
+}
+
+
+footer {
+    background-color: #57a9f9;
+}
+
+
+body {
+    /* background-image: url(https://png.pngtree.com/png-clipart/20220125/ourmid/pngtree-leaves-spring-green-border-png-image_4364378.png); */
+    /* background-image: url(https://www6.lunapic.com/do-not-link-here-use-hosting-instead/173730102775938875?4160230); */
+    background-image: url(imageedit_2_7567919812.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }

@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- About Us Page -->
+<div class="container py-5">
+    <!-- Page Header -->
+    <div class="row mb-5 text-center">
+        <div class="col">
+            <h1 class="fw-bold text-uppercase">About SmartAgro</h1>
+            <p class="text-muted">Empowering agriculture with AI for a sustainable future.</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="row align-items-center gy-4 mb-5">
+        <div class="col-md-6">
+            <h3 class="fw-bold text-uppercase">Our Mission</h3>
+            <p>At SmartAgro, we aim to revolutionize agriculture through cutting-edge AI technologies. Our platform is dedicated to helping farmers detect plant diseases, recommend effective treatments, and optimize crop yields in a sustainable and efficient way.</p>
+            <p>We believe that technology has the power to transform agriculture by reducing losses, enhancing productivity, and contributing to global food security.</p>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="{{ url_for('static', filename='assets/img/about-us.jpg') }}" alt="About SmartAgro" class="img-fluid rounded shadow animated zoomIn">
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="row text-center py-5 bg-light rounded shadow-lg mb-5">
+        <div class="col">
+            <h2 class="fw-bold text-uppercase mb-4">Why Choose SmartAgro?</h2>
+            <p class="text-muted">Discover the key highlights that set us apart.</p>
+        </div>
+        <div class="row gy-4">
+            <!-- Feature 1 -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100 animated fadeInUp">
+                    <div class="card-body text-center">
+                        <div class="icon-box bg-primary text-white mx-auto mb-3 d-flex justify-content-center align-items-center rounded-circle" style="width: 80px; height: 80px;">
+                            <i class="bi bi-gear-wide-connected fs-2"></i>
+                        </div>
+                        <h4 class="card-title fw-bold">Advanced AI Model</h4>
+                        <p class="card-text">Our AI-powered ResNet-18 model delivers exceptional 98% accuracy in plant disease detection, ensuring reliable diagnostics.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature 2 -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100 animated fadeInUp" style="animation-delay: 0.2s;">
+                    <div class="card-body text-center">
+                        <div class="icon-box bg-success text-white mx-auto mb-3 d-flex justify-content-center align-items-center rounded-circle" style="width: 80px; height: 80px;">
+                            <i class="bi bi-bar-chart-line fs-2"></i>
+                        </div>
+                        <h4 class="card-title fw-bold">Comprehensive Dataset</h4>
+                        <p class="card-text">Our dataset includes 87,000 images across 38 classes, covering a wide range of crops and diseases to ensure robust training.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature 3 -->
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100 animated fadeInUp" style="animation-delay: 0.4s;">
+                    <div class="card-body text-center">
+                        <div class="icon-box bg-info text-white mx-auto mb-3 d-flex justify-content-center align-items-center rounded-circle" style="width: 80px; height: 80px;">
+                            <i class="bi bi-bag-plus fs-2"></i>
+                        </div>
+                        <h4 class="card-title fw-bold">Tailored Solutions</h4>
+                        <p class="card-text">SmartAgro provides actionable recommendations for fertilizers, pesticides, and other supplements based on disease detection.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="row py-5 text-center">
+        <div class="col">
+            <h2 class="fw-bold text-uppercase">Meet Our Team</h2>
+            <p class="text-muted">The minds behind SmartAgro's innovation and success.</p>
+        </div>
+    </div>
+    <div class="row gy-4 justify-content-center">
+        <!-- Team Member 1 -->
+        <div class="col-md-4 text-center">
+            <div class="card border-0 shadow-sm h-100 animated fadeInUp">
+                <div class="card-body">
+                    <img src="{{ url_for('static', filename='assets/img/team/awais.jpg') }}" alt="M Awais" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                    <h5 class="card-title fw-bold">M Awais</h5>
+                    <p class="card-text text-muted">AI Specialist & Lead Developer</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="col-md-4 text-center">
+            <div class="card border-0 shadow-sm h-100 animated fadeInUp" style="animation-delay: 0.2s;">
+                <div class="card-body">
+                    <img src="{{ url_for('static', filename='assets/img/team/hamza.jpg') }}" alt="Hamza Anjum" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                    <h5 class="card-title fw-bold">Hamza Anjum</h5>
+                    <p class="card-text text-muted">Data Scientist & Researcher</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 3 -->
+        <div class="col-md-4 text-center">
+            <div class="card border-0 shadow-sm h-100 animated fadeInUp" style="animation-delay: 0.4s;">
+                <div class="card-body">
+                    <img src="{{ url_for('static', filename='assets/img/team/farhan.jpg') }}" alt="Farhan Gulzar" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                    <h5 class="card-title fw-bold">Farhan Gulzar</h5>
+                    <p class="card-text text-muted">UI/UX Designer & Frontend Developer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action Section -->
+    <div class="container py-5 text-center">
+        <h3 class="fw-bold text-uppercase mb-4">Join the SmartAgro Revolution!</h3>
+        <p>Partner with us to harness the power of AI and transform your farming practices for a better future.</p>
+        <a href="{{ url_for('ai_detect_page') }}" class="btn btn-primary btn-lg me-3">Try Detection</a>
+        <a href="{{ url_for('home') }}" class="btn btn-outline-primary btn-lg">Back to Home</a>
+    </div>
+</div>
+
+{% endblock %}
